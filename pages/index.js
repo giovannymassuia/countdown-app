@@ -13,23 +13,13 @@ export default function Home({ lastUpdate }) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Passport
-        </h1>
-
-        <p className={styles.description}>
-          Sent: <strong>2021-01-20</strong>
-          <br/>
-          Days processing:  <strong>{differenceInCalendarDays(new Date(), new Date(2021, 0, 20))}</strong>
-        </p>
-        
-        <h1 className={styles.title}>
           Flight
         </h1>
 
         <p className={styles.description}>
-          Departure: <strong>2021-03-14</strong>
+          Departure: <strong>2021-03-18</strong>
           <br/>
-          Days left: <strong>{differenceInCalendarDays(new Date(2021, 2, 14), new Date())}</strong>
+          Days left: <strong>{differenceInCalendarDays(new Date(2021, 2, 18), new Date())}</strong>
         </p>
 
         <footer>
