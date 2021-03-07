@@ -13,13 +13,11 @@ export default function Home({ lastUpdate }) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Flight
+          Days left
         </h1>
 
         <p className={styles.description}>
-          Departure: <strong>2021-03-18</strong>
-          <br/>
-          Days left: <strong>{differenceInCalendarDays(new Date(2021, 2, 18), new Date())}</strong>
+          <strong>{differenceInCalendarDays(new Date(2021, 2, 18), new Date())}</strong>
         </p>
 
         <footer>
