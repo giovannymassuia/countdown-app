@@ -13,12 +13,8 @@ export default function Home({ lastUpdate }) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Days left
+          {differenceInCalendarDays(new Date(2021, 2, 18), new Date())} Days
         </h1>
-
-        <p className={styles.description}>
-          <strong>{differenceInCalendarDays(new Date(2021, 2, 18), new Date())}</strong>
-        </p>
 
         <footer>
           <p>Last update: {lastUpdate}</p>
